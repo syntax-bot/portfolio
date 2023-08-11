@@ -1,0 +1,16 @@
+.profile-container{
+    display:flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height:90vh;
+    width:100%;
+    min-height: fit-content;
+}
+
+
+
+.icon-color{
+    color: black;
+    font-size:large;
+}
