@@ -3,11 +3,39 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    height:90vh;
+    height:100vh;
     width:100%;
     min-height: fit-content;
 }
 
+.profile-details{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height:100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    min-height: fit-content;
+
+}
+
+.name-icon{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    text-align: center;
+    justify-content:space-around;
+
+}
+
+.colz-icon{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: space-around;
+}
 
 
 .icon-color{

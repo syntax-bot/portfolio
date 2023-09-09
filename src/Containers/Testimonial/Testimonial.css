@@ -1,0 +1,44 @@
+#Testimonial{
+    display:flex;
+    flex-direction: column;
+}
+
+.section_heading{
+    display: flex;
+    height: 15%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Testimonial-area{
+    display: flex;
+    overflow: scroll;
+    list-style: none;
+}
+
+.Testimonial-area-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width: 15em;
+    height: 25em;
+    margin:20px;
+    border:0.2em solid rgb(122, 122, 122);
+    border-radius:2em;
+}
+
+.Testimonial-area-content:hover{
+    box-shadow:0 0 10px 10px gray;
+}
+
+.Testimonial-image{
+    width: 80%;
+    height: 25%;
+    background-color: aqua;
+}
+.Testimonial-text{
+    width: 80%;
+    height: 70%;
+    background-color: rgb(151, 163, 163);
+}

@@ -1,0 +1,16 @@
+.AboutMe-container{
+    display: flex;
+    
+}
+
+.AboutMe-content{
+    display: flex;
+    flex-direction: column;
+    margin:10%;
+    margin-right: 30%;
+}
+
+.AboutMe-content p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}

@@ -1,14 +1,14 @@
 import React from "react";
-import "./Navbar.css"
+import "./Navbar.css";
 export default function Navbar() {
   return (
     <div className="sticky-top">
-      <nav className="navbar navbar-expand-lg bg-dark py-3">    
+      <nav className="navbar navbar-expand-lg bg-dark py-3">
         {/* bg-body-tertiary */}
         <div className="container-fluid">
-            <a className="navbar-brand ms-3" href="#">
-                <img  src="src\assets\logo-no-background.png" alt="logo" style={{width:175,height:35}}/>
-            </a>
+          <a className="navbar-brand ms-3 text-white brand-name" href="#">
+            &lt;Syntax-Bot/&gt;
+          </a>
           <button
             className="navbar-toggler border border-white border-3"
             type="button"
@@ -18,32 +18,32 @@ export default function Navbar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span id='togglericon' className="navbar-toggler-icon"></span>
+            <span id="togglericon" className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item mx-2">
-                <a className="nav-link active text-white" href="#">
+                <a className="nav-link active text-white" href="#Home">
                   Home
                 </a>
               </li>
               <li className="nav-item mx-2">
-                <a className="nav-link active text-white" href="#">
+                <a className="nav-link active text-white" href="#AboutMe">
                   About Me
                 </a>
               </li>
               <li className="nav-item mx-2">
-                <a className="nav-link active text-white" href="#">
-                    Resume
+                <a className="nav-link active text-white" href="#Resume">
+                  Resume
                 </a>
               </li>
               <li className="nav-item mx-2">
-                <a className="nav-link active text-white" href="#">
+                <a className="nav-link active text-white" href="#Testimonial">
                   Testimonial
                 </a>
               </li>
               <li className="nav-item mx-2">
-                <a className="nav-link active text-white" href="#">
+                <a className="nav-link active text-white" href="#ContactMe">
                   Contact Me
                 </a>
               </li>

@@ -1,10 +1,11 @@
 import React from "react";
 import "./Education.css";
 export default function Education() {
-  return (
-    <>
-      <div id="education">
-        <div class="container">
+  return <div id="education"></div>;
+}
+
+{
+  /* <div class="container">
           <div class="row">
             <div class="col-md-12">
               <div class="main-timeline">
@@ -44,8 +45,5 @@ export default function Education() {
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </>
-  );
+        </div> */
 }
